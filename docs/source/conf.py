@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 
 # -- Project information -----------------------------------------------------
 
-project = "jsonlinter"
+project = "json-lint-tools"
 copyright = "2023, Mathew Moon <me@mathewmoon.net>"
 author = "Mathew Moon <me@mathewmoon.net>"
 

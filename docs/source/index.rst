@@ -1,7 +1,7 @@
 Module contents
 ===============
 
-.. automodule:: jsonlinter
+.. automodule:: json_lint_tools
    :members:
    :undoc-members:
    :show-inheritance:
