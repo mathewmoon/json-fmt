@@ -6,7 +6,7 @@ from os import path
 from sys import stdout, stdin
 from typing import List
 
-from json_fmt import Diff, TermColors
+from . import Diff, TermColors
 
 
 parser = ArgumentParser()

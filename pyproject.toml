@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "json-fmt"
+name = "json-lint-tools"
 version = "0.1.0"
 description = "Lints, formats, and diffs JSON files"
 authors = ["Mathew Moon <me@mathewmoon.net>"]
 readme = "README.md"
 homepage = "https://github.com/mathewmoon/json-linter"
 documentation = "https://github.com/mathewmoon/json-linter"
-packages = [{include = "json_fmt", from = "."}]
+packages = [{include = "json_lint_tools", from = "."}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -22,4 +22,4 @@ requires = ["poetry-core>=1.7.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-jsonfmt = "json_fmt.cli:main"
+jsonfmt = "json_lint_tools.cli:main"
