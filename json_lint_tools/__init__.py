@@ -164,9 +164,10 @@ class Diff:
         if self.sort_arrays:
             data = self.__sort_arrays(data)
 
-        formatted_data = dumps(data, indent=self.indent, sort_keys=self.sort_keys)
+        self.formatted_data = dumps(
+            data, indent=self.indent, sort_keys=self.sort_keys
+        )
 
-        return formatted_data
 
     def __sort_arrays(self, data: Dict | List) -> Dict | List:
         if isinstance(data, list):
