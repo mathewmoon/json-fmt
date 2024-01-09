@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "json-lint-tools"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lints, formats, and diffs JSON files"
 authors = ["Mathew Moon <me@mathewmoon.net>"]
 readme = "README.md"
